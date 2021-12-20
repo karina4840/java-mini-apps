@@ -1,17 +1,4 @@
 # <div align="center">🟡 🟢 🔵 Colour Flipper 🔵 🟢 🟡</div>
-    
-***   
-
-<div align="center">
-  <h3>
-    <a href="https://karina4840.github.io/colour-flipper/" target="_blank"> Live site </a>
-    <span> | </span>
-    <a href="https://github.com/karina4840/colour-flipper#the-challenge"> Solution </a>
-    <br>
-  </h3>                                                             
-</div>
-
-***
 
 ## Table of contents
 
