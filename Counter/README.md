@@ -15,7 +15,7 @@ The counter is written with HTML, CSS, and JS. Users are able to click buttons (
                                                           
 ### Screenshot
 
-<img src="https://github.com/karina4840/counter/blob/main/screen%201.png?raw=true" height=200><img src="https://github.com/karina4840/counter/blob/main/screen%202.png?raw=true" height=200><img src="https://github.com/karina4840/counter/blob/main/screen%203.png?raw=true" height=200>
+<img src="https://github.com/karina4840/java-mini-apps/blob/main/Counter/screen%201.png?raw=true" height=200> <img src="https://github.com/karina4840/java-mini-apps/blob/main/Counter/screen%202.png?raw=true" height=200> <img src="https://github.com/karina4840/java-mini-apps/blob/main/Counter/screen%203.png?raw=true" height=200>
 
 ### Built with
 - HTML																																															
