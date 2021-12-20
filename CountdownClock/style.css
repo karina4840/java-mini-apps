@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-image: url(./xmas-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.title {
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
+  margin-bottom: 20px;
+  color: #35862e;
+}
+
+.holiday-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.holiday-name,
+.holiday-date {
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #661212;
+}
+
+.card {
+  width: 30vw;
+  height: 50vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-radius: 20px;
+  overflow: hidden;
+  -webkit-box-shadow: 5px 10px 20px #852c2c;
+          box-shadow: 5px 10px 20px #852c2c;
+}
+
+.picture-section {
+  height: 70%;
+  background-image: url(./xmas.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.count-section {
+  height: 30%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #1d581d;
+}
+
+.count-tiles {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.expired {
+  font-size: 2rem;
+  font-family: 'Amatic SC', cursive;
+  color: #e0c6c6;
+}
+
+.tile {
+  background-color: #698f45;
+  border-radius: 10px;
+  width: 55px;
+  height: 75px;
+  margin: auto 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: 'Amatic SC', cursive;
+  text-transform: lowercase;
+  -webkit-box-shadow: 5px 10px 20px #356335;
+          box-shadow: 5px 10px 20px #356335;
+}
+
+.number {
+  font-weight: 900;
+  font-size: 2rem;
+  color: white;
+}
+
+.text-tile {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0e3f15;
+}
+
+.attribution {
+  position: relative;
+  text-align: center;
+  bottom: 3vh;
+}
+
+.contact {
+  width: 100%;
+  height: 30px;
+  margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.github-pic {
+  width: 40px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .card {
+    width: 40vw;
+  }
+  .tile {
+    width: 7vw;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .card {
+    width: 50vw;
+  }
+  .tile {
+    width: 9vw;
+  }
+}
+/*# sourceMappingURL=style.css.map */
