@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway';
+}
+
+body{
+    height: 100%;
+    background-color: #1e5675;
+}
+
+.container {
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+
+.main-title{
+    color: #fffbf2;
+    width: 100%;
+    padding: 40px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(./img/pattern-bg.svg);
+
+}
+
+.title{
+    position: relative;
+    z-index: 2;
+    font-weight: 900;
+    font-size: 3vw;
+    margin-bottom: 15px;
+}
+
+.subtitle{
+    position: relative;
+    z-index: 2;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 60vw;
+    height: fit-content;
+    margin: 40px 0;
+    padding: 3vh 3vw;
+    border-radius: 15px;
+    background-color: #e4f5fd;
+    box-shadow: 5px 5px 10px #525150;
+}
+
+.app-container{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    margin-bottom: 2vh;
+}
+
+.app-title{
+    color: #3356a1;
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin-bottom: 20px;
+}
+
+.image{
+    width: 10vw;
+    height: 7vw;
+    background-color: rgb(179, 196, 241);
+    box-shadow: 3px 1px 10px #b1b1b1;
+    border: solid 2px #3356a1;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: 200ms ease-in-out all;
+
+    &:hover{
+        transform: scale(1.05);
+        transition: 200ms ease-in-out all;
+    }
+}
+
+.bg-rockPaperScisors{
+    background-image: url(./img/rockPaper.png);
+}
+
+.bg-drumKit{
+    background-image: url(./img/drumKit.png);
+}
+
+.bg-tipCalculator{
+    background-image: url(./img/tipCalc.png);
+}
+
+.bg-simonSays{
+    background-image: url(./img/simonSays.png);
+}
+
+.bg-counter{
+    background-image: url(./img/counter.png);
+}
+
+.bg-colorFlip{
+    background-image: url(./img/colourFlipper.png);
+}
+
+.bg-countDown{
+    background-image: url(./img/countDown.png);
+}
+
+.buttons{
+    //background-color: #91abe4;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #fff6e4;
+    font-weight: 300;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #525150;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+    &:hover{
+        color: #3356a1;
+        text-decoration: underline;
+        text-underline-offset: 3px;
+        font-weight: 500;
+        transition: all 200ms ease-in-out;
+    }
+}
+
+.code-button{
+    stroke: #3356a1;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+
+    &:hover{
+        transform: scale(1.2);
+        transition: all 200ms ease-in-out;
+
+    }
+}
+
+.footer {
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 300;
+    color: #e4f5fd;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: #e4f5fd;
+
+    &:hover{
+        color: #e4f5fd;
+        text-decoration: underline;
+        font-weight: 300;
+    }
+}
+
+.feather-github {
+    transition: 200ms ease-in-out;
+    cursor: pointer;
+
+    &:hover {
+        transition: 200ms ease-in-out;
+        transform: scale(1.2);
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+    
+    .title{
+        font-size: 4vw;
+    }
+
+    .subtitle{
+        font-size: 2vw;
+        width: 70vw;
+    }
+    
+    .wrapper {
+        width: 80vw;
+        height: 100%;
+        
+    }
+
+    .app-container{
+        width: 45%;    
+    }
+
+    .app-title{
+        font-size: 1rem;
+    }
+
+    .image{
+        width: 20vw;
+        height: 15vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .title{
+        font-size: 6vw;
+    }
+
+    .subtitle{
+        font-size: 3vw;    }
+    
+}

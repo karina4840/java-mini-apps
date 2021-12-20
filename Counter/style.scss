@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Outfit', sans-serif;
+}
+
+.title{
+    font-size: 50px;
+    letter-spacing: 7px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: rgb(112, 148, 189);
+}
+
+.number{
+    font-size: 100px;
+    margin-bottom: 50px;
+    color: rgb(68, 68, 68);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
+
+.btn {
+    font-size: 25px;
+    margin: 0 30px;
+    padding: 10px 15px;
+    border: solid 1px;
+    color: rgb(68, 68, 68);
+    border-color: rgba(164, 202, 219, 0.815);
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px  rgba(198, 211, 218, 0.815);
+    background-color: rgba(206, 226, 235, 0.815);
+    cursor: pointer;
+
+    &:hover{
+        background-color: rgba(195, 216, 226, 0.815);
+    }
+
+    &:active{
+        background-color: rgba(166, 203, 221, 0.815);
+        color: rgb(32, 32, 32);
+    }
+}
+
+.contact {
+    width: 100%;
+    height: 30px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+
+.github-pic{
+    width: 40px;
+}
+
+.green {
+    color: rgb(79, 133, 79);
+}
+.red {
+    color: rgb(168, 61, 97);
+}
