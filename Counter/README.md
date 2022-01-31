@@ -27,10 +27,8 @@ The counter is written with HTML, CSS, and JS. Users are able to click buttons (
 
 ###  Author
 - Github: [@karina4840](https://github.com/karina4840)
-- Frontend Mentor: [@karina4840](https://www.frontendmentor.io/profile/karina4840)
-
 ---
 
 <div align="center">
-    2021 | <a href="https://github.com/karina4840"> karina4840 </a>
+    2022 | <a href="https://github.com/karina4840"> karina4840 </a>
 </div>
