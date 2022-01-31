@@ -15,7 +15,7 @@ A simple color flipper written with HTML, CSS, and JS. Users are able to click a
                                                           
 ### Screenshot
 
-<img src="https://github.com/karina4840/colour-flipper/blob/main/screen1.png?raw=true" height=200> <img src="https://github.com/karina4840/colour-flipper/blob/main/screen.png?raw=true" height=200>
+<img src="https://github.com/karina4840/java-mini-apps/blob/main/img/colourFlipper.png?raw=true" height=200> <img src="https://github.com/karina4840/java-mini-apps/blob/main/ColourFlipper/colorFlipperScreen.png?raw=true" height=200>
 
 ### Built with
 - Semantic HTML5 markup																																																			
