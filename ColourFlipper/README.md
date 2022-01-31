@@ -32,5 +32,5 @@ A simple color flipper written with HTML, CSS, and JS. Users are able to click a
 ---
 
 <div align="center">
-    2021 | <a href="https://github.com/karina4840"> karina4840 </a>
+    2022 | <a href="https://github.com/karina4840"> karina4840 </a>
 </div>
