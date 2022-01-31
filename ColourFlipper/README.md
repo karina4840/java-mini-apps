@@ -27,8 +27,6 @@ A simple color flipper written with HTML, CSS, and JS. Users are able to click a
 
 ###  Author
 - Github: [@karina4840](https://github.com/karina4840)
-- Frontend Mentor: [@karina4840](https://www.frontendmentor.io/profile/karina4840)
-
 ---
 
 <div align="center">
