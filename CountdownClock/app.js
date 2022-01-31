@@ -23,7 +23,7 @@ const minsTile = document.querySelector('.mins');
 const secsTile = document.querySelector('.secs');
 
 // holiday dates
-let xmas = new Date(2021, 11, 24, 24, 0, 0);
+let xmas = new Date(2022, 11, 24, 24, 0, 0);
 
 const yearXmas = xmas.getFullYear();
 
