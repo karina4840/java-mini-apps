@@ -18,18 +18,25 @@ This is a page with mini-applications written in JavaScript:
 
 ### Apps
 #### Rock Paper Scissors
+Rock paper scissors is a famous hand game, usually played between two people, and which solves all the arguments from who's doing the dishes or who gets the bigges half of a cookie. <br> You play against a computer which generates a random number from 1 to 3 by a `Math.random()` method and each is assigned to a hand. <br> The results are displayed accordingly, a rock beats scissors, the scissors beat paper, the paper beats the rock. If the hands are same, the result "it's a tie" and points are not counted into the final result.
 #### Drum Kit
+The Drum Kit app displays some of the keyboard keys. Each key is assigned to a specific sound of a drum. The keys can be pressed or clicked in order to play the sound. To detect which key was activated I used `switch statement`
 #### Tip Calculator
+The Tip Calculator is designed to calculate the correct tip and total cost of the bill per person. It includes most of the appropriate % of tips plus a custom input. The Bill and Number of People input accept only valid numbers <br>
 #### Simon Says
+This is a digital version of the Simon Says game. To start the game, press any key on the keyboard. The game will start by showing the first sequence of colours. The right color needs to be pressed in order to continue the game. The sequence continues to build up after each press. The colors are generated randomly and saved in the new array. Each tile has plays a sound when pressed as well as the error message sound. 
 #### Counter
+A simple counter which increases, decreases, and resets a number on the screen. If the number is negative it turns red, positive turns green, and reset turns backto black. 
 #### Colour Flipper
+The Colour Flipper app has an array that contains some colors which get changed when the button is clicked. After the click the bacground changes color to a new color that was randomly pulled out of the array.
 #### Countdown App
-
+The Countdown app allows us to check how many days is left before Christmas. The app uses `getDate(), getFullYear(), getMonth(),` methods to get the current date and the date of the holiday in miliseconds, which then is converted in appropriate formats and displayed on the screen. The time is updated every second with help of `setInterval()` method.
 ### Built with
 - HTML				
 - SASS
 - Flexbox
 - JavaScript
+- jQuery
 
 <hr>
 
