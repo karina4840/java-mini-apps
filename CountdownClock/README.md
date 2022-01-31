@@ -1,4 +1,4 @@
-# <div align="center"> Countdown Clock</div>
+# <div align="center"> 🕰 Countdown Clock ⏰</div>
 
 ## Table of contents
 
