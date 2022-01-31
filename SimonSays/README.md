@@ -35,5 +35,5 @@ Each tile has plays a sound when pressed as well as the error message sound.
 ---
 
 <div align="center">
-    2021 | <a href="https://github.com/karina4840"> karina4840 </a>
+    2022 | <a href="https://github.com/karina4840"> karina4840 </a>
 </div>
